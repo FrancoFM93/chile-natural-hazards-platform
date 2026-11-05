@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {"title": "Synthetic USGS-format fixture, not a catalog extract", "count": 3},
+  "features": [
+    {
+      "type": "Feature",
+      "id": "synthetic-usgs-1",
+      "properties": {"time": 1577836800123, "updated": 1577840400456, "mag": 4.7, "magType": "mb", "place": "Synthetic location"},
+      "geometry": {"type": "Point", "coordinates": [-70.1, -30.2, 107.82]}
+    },
+    {
+      "type": "Feature",
+      "id": "synthetic-usgs-2",
+      "properties": {"time": 1577836801000, "mag": null},
+      "geometry": {"type": "Point", "coordinates": [-71, -31]}
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {"time": "not-a-timestamp", "mag": "4.2", "magType": ""},
+      "geometry": {"type": "Point", "coordinates": [200, -35, -2]}
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {"title": "Synthetic EMSC-format fixture, not a catalog extract"},
+  "features": [
+    {
+      "type": "Feature",
+      "id": "synthetic-top-level-id-is-not-unid",
+      "properties": {"unid": "synthetic-emsc-1", "time": "2020-01-01T01:00:00.123Z", "lastupdate": "2020-01-01T02:00:00.456+00:00", "mag": 4.7, "magtype": "mb", "depth": 109.3, "lat": -30.2, "lon": -70.1},
+      "geometry": {"type": "Point", "coordinates": [-70.1, -30.2, -109.3]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"unid": "synthetic-emsc-outside", "time": "2020-01-02T00:00:00.001Z", "mag": 4.0, "depth": 9},
+      "geometry": {"type": "Point", "coordinates": [-81, -61, -9]}
+    }
+  ]
+}
